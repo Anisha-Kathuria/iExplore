@@ -1,0 +1,29 @@
+{
+  "name": "acmsserver",
+  "version": "1.0.0",
+  "description": "ACMS GPS viewer Project",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "mocha --timeout 200000 --recursive --exit"
+  },
+  "author": "ACMS",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.10"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "dotenv": "^8.2.0",
+    "mocha": "^7.1.2",
+    "mockgoose": "^8.0.4",
+    "node-mocks-http": "^1.8.1",
+    "nodemon": "^2.0.3",
+    "supertest": "^4.0.2"
+  }
+}
