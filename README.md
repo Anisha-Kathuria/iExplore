@@ -1,6 +1,10 @@
 # INDOOR NAVIGATION SYSTEM SERVER
 Server for GPS viewer application developed under ACMS (Amazon Campus Mentorship Series) project.
 
+* [WebApp](https://github.com/Shrutikatyal/iExplore-web.git)
+* [Android App](https://github.com/priyankamadhwal/iExplore-app.git)
+* [Server](https://github.com/Anisha-Kathuria/iExplore.git)
+
 ### DESCRIPTION
 Build a web tool which shows a building boundary and all the people moving inside that building. It will capture the movement data using an app which will be installed on the mobile devices of all those people, and that app will keep sending location information to a server periodically. The location accuracy should not be more than 5 meters
 
